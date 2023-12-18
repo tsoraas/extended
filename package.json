@@ -1,0 +1,25 @@
+{
+  "name": "extended",
+  "displayName": "CorpExtended",
+  "description": "Corporater Extended Scripting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "extended",
+      "aliases": ["Corporater Extended Scripting", "extended"],
+      "extensions": [".extended"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "extended",
+      "scopeName": "source.extended",
+      "path": "./syntaxes/extended.tmLanguage.json"
+    }]
+  }
+}
